@@ -6,7 +6,6 @@ class TitleSection extends Component {
   render() {
     return (
       <div className = "TitleSection">
-        <p> TitleSection! </p>
         <TitleDisplayImage />
       </div>
     );

@@ -27,7 +27,7 @@ class TitleDisplayImage extends Component {
 
     return (
       <div className = "TitleDisplayImage">
-        <img src = {this.state.images[this.state.imageCounter]} alt = "titleImage" />
+        <img src = {this.state.images[this.state.imageCounter]} alt = "titleImage" className = "title-image" />
       </div>
     );
   }

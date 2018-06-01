@@ -1,0 +1,51 @@
+.Header
+{
+  position: fixed;
+  height: 6%;
+  width: 100%;
+  top: 0;
+}
+
+.header__barber-pole
+{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  height: 200%;
+  width: 100%;
+}
+
+.header__barber-pole > div
+{
+  outline-style: outset;
+  outline-color: black;
+  outline-width: thick;
+  width: 6%;
+  height: 100%;
+  -webkit-transform:
+    translateY(30%)
+    rotate(310deg);
+  -webkit-transition: background-color .3s, height 1s;
+  transition: background-color .3s, height 1s;
+}
+
+.header__barber-pole > div:hover
+{
+  background-color: white;
+  height: 120%;
+}
+
+.header__barber-line--red
+{
+  background-color: #cc0000;
+}
+
+.header__barber-line--white
+{
+  background-color: #e6e6e6;
+}
+
+.header__barber-line--blue
+{
+  background-color: #0000cc;
+}

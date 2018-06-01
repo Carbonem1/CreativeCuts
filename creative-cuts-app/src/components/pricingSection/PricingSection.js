@@ -5,7 +5,7 @@ class PricingSection extends Component {
   render() {
     return (
       <div className = "PricingSection">
-        <p> PricingSection! </p>
+        <p className = "section-title"> PRICING </p>
       </div>
     );
   }

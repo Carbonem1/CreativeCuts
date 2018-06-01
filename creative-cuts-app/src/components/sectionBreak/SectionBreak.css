@@ -1,0 +1,45 @@
+.SectionBreak
+{
+  height: 75px;
+  width: 100%;
+}
+
+.section__barber-pole
+{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.section__barber-pole > div
+{
+  outline-style: outset;
+  outline-color: black;
+  outline-width: thick;
+  width: 6%;
+  height: 100%;
+  -webkit-transition: height 1s;
+  transition: height 1s;
+}
+
+.section__barber-pole > div:hover
+{
+  /* height: 120%; */
+}
+
+.section__barber-line--red
+{
+  background-color: #cc0000;
+}
+
+.section__barber-line--white
+{
+  background-color: #e6e6e6;
+}
+
+.section__barber-line--blue
+{
+  background-color: #0000cc;
+}

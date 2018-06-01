@@ -5,7 +5,7 @@ class AboutSection extends Component {
   render() {
     return (
       <div className = "AboutSection">
-        <p> AboutSection! </p>
+        <p className = "section-title"> ABOUT </p>
       </div>
     );
   }
