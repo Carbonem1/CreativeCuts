@@ -1,5 +1,11 @@
 .title-image
 {
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
+  z-index: -1;
+  -webkit-filter: grayscale(95%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(95%);
 }

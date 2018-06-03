@@ -11,7 +11,6 @@ class Body extends Component {
     return (
       <div className = "Body">
         <TitleSection />
-        <SectionBreak />
         <AboutSection />
         <SectionBreak />
         <HoursSection />

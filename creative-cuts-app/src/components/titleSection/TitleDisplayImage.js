@@ -3,6 +3,7 @@ import './TitleDisplayImage.css';
 import image1 from "../../resources/how-to-make-short-hair-curly-and-greasy-hair-cuts.jpg";
 import image2 from "../../resources/modern-haircuts-boys-sensational-mens-modern-slick-back-hairstyle-amp-haircut-tutorial-2018-mens-of-modern-haircuts-boys.jpg";
 import image3 from "../../resources/short-haircut-for-round-face.jpg";
+import TitleText from "./TitleText";
 
 class TitleDisplayImage extends Component {
   constructor() {

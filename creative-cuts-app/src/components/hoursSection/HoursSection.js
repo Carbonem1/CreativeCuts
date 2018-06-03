@@ -5,7 +5,7 @@ class HoursSection extends Component {
   render() {
     return (
       <div className = "HoursSection">
-        <p className = "section-title"> HOURS </p>
+        <p className = "section-title"> Hours </p>
       </div>
     );
   }
