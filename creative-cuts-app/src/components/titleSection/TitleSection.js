@@ -3,6 +3,7 @@ import './TitleSection.css';
 import TitleDisplayImage from "./TitleDisplayImage";
 import TitleText from "./TitleText";
 import AppointmentButton from "./AppointmentButton";
+import Calendar from 'react-calendar'
 
 class TitleSection extends Component {
   render() {

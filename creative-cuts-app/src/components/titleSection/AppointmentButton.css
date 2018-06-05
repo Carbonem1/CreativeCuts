@@ -9,10 +9,10 @@
   font-family: Moon;
   font-size: 16px;
   font-weight: bold;
-  border: 3px solid var(--main-red);
+  border: 3px solid var(--main-blue);
   border-radius: 5px;
   color: white;
-  background-color: var(--main-red);
+  background-color: var(--main-blue);
   cursor:pointer;
   -webkit-transition: border .4s; /* Safari */
   transition: border .4s;
@@ -20,7 +20,7 @@
 
 .appointment-button:hover
 {
-  border: 3px solid var(--main-blue);
+  border: 3px solid var(--main-red);
 }
 
 .appointment-button:focus

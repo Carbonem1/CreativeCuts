@@ -3,18 +3,18 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
   z-index: -1;
   -webkit-filter: grayscale(95%); /* Safari 6.0 - 9.0 */
   filter: grayscale(95%);
-  -webkit-animation: fadein 15s;
-  animation: fadein 15s;
+  -webkit-animation: fadein 3s;
+  animation: fadein 3s;
 }
 
 @keyframes fadein {
   0% { opacity: 0; }
-  20%   { opacity: 1; }
-  80% { opacity: 1; }
-  100%   { opacity: 0; }
+  100%   { opacity: 1; }
 }

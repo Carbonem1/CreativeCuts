@@ -9,6 +9,8 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "react": "^16.4.0",
+    "react-calendar": "^2.15.1",
+    "react-crossfade-image": "^1.1.1",
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4",
     "webpack": "^3.11.0"

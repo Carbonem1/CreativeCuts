@@ -3,7 +3,7 @@ import './TitleDisplayImage.css';
 import image1 from "../../resources/how-to-make-short-hair-curly-and-greasy-hair-cuts.jpg";
 import image2 from "../../resources/modern-haircuts-boys-sensational-mens-modern-slick-back-hairstyle-amp-haircut-tutorial-2018-mens-of-modern-haircuts-boys.jpg";
 import image3 from "../../resources/short-haircut-for-round-face.jpg";
-import TitleText from "./TitleText";
+import CrossfadeImage from "react-crossfade-image";
 
 class TitleDisplayImage extends Component {
   constructor() {
@@ -26,8 +26,8 @@ class TitleDisplayImage extends Component {
     }, 15000);
 
     return (
-      <div className = "title-display-image">
-        <img src = {this.state.images[this.state.imageCounter]} alt = "titleImage" className = "title-image" />
+      <div className = "title-image">
+        <CrossfadeImage src = {this.state.images[this.state.imageCounter]} duration = {3000} />
       </div>
     );
   }
