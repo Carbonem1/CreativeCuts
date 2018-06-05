@@ -4,7 +4,7 @@ import './HoursSection.css';
 class HoursSection extends Component {
   render() {
     return (
-      <div className = "HoursSection">
+      <div className = "hours-section">
         <p className = "section-title"> Hours </p>
       </div>
     );

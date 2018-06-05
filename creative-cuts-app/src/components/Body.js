@@ -9,8 +9,9 @@ import SectionBreak from "./sectionBreak/SectionBreak";
 class Body extends Component {
   render() {
     return (
-      <div className = "Body">
+      <div className = "body">
         <TitleSection />
+        <SectionBreak />
         <AboutSection />
         <SectionBreak />
         <HoursSection />

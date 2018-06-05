@@ -12,7 +12,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className = "App">
+      <div className = "app">
         <Header />
         <script src="../../dist/assets/bundle.js"></script>
         <Body />

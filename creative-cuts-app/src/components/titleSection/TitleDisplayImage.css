@@ -8,4 +8,13 @@
   z-index: -1;
   -webkit-filter: grayscale(95%); /* Safari 6.0 - 9.0 */
   filter: grayscale(95%);
+  -webkit-animation: fadein 15s;
+  animation: fadein 15s;
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  20%   { opacity: 1; }
+  80% { opacity: 1; }
+  100%   { opacity: 0; }
 }

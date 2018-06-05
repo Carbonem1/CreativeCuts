@@ -1,7 +1,11 @@
-.TitleText
+.title-text
 {
   font-family: Flott;
   font-size: 100px;
+  font-weight: bold;
+  outline-width: 12px;
+  outline-color: var(--main-red);
+  outline-style: double;
   color: white;
   margin-top: 15%;
   text-align: center;

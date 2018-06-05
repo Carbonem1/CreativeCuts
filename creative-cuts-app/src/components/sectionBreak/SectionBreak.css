@@ -1,4 +1,4 @@
-.SectionBreak
+.section-break
 {
   height: 75px;
   width: 100%;
@@ -31,15 +31,15 @@
 
 .section__barber-line--red
 {
-  background-color: #cc0000;
+  background-color: var(--main-red);
 }
 
 .section__barber-line--white
 {
-  background-color: #e6e6e6;
+  background-color: var(--main-white);
 }
 
 .section__barber-line--blue
 {
-  background-color: #0000cc;
+  background-color: var(--main-blue);
 }

@@ -1,29 +1,29 @@
-.AppointmentButton
+.appointment-button
 {
   display: block;
   margin: 0 auto;
   margin-top: 250px;
-  width: 320px;
+  width: 300px;
   height: 80px;
   text-align: center;
-  font-family: serif;
-  font-size: 22px;
+  font-family: Moon;
+  font-size: 16px;
   font-weight: bold;
-  border-radius: 10px;
-  border: 2px solid var(--main-red);
+  border: 3px solid var(--main-red);
+  border-radius: 5px;
   color: white;
-  background-color: transparent;
+  background-color: var(--main-red);
   cursor:pointer;
   -webkit-transition: border .4s; /* Safari */
   transition: border .4s;
 }
 
-.AppointmentButton:hover
+.appointment-button:hover
 {
-  border: 2px solid var(--main-blue);
+  border: 3px solid var(--main-blue);
 }
 
-.AppointmentButton:focus
+.appointment-button:focus
 {
   outline: none;
 }

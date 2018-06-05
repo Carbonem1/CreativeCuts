@@ -4,7 +4,7 @@ import './AppointmentButton.css';
 class AppointmentButton extends Component {
   render() {
     return (
-      <button className = "AppointmentButton">
+      <button className = "appointment-button">
         <p className = "button-text"> Book Appointment </p>
       </button>
     );

@@ -7,7 +7,7 @@ import AppointmentButton from "./AppointmentButton";
 class TitleSection extends Component {
   render() {
     return (
-      <div className = "TitleSection">
+      <div className = "title-section">
         <TitleText />
         <AppointmentButton />
         <TitleDisplayImage />

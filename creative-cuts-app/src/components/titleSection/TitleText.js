@@ -4,7 +4,7 @@ import './TitleText.css';
 class TitleText extends Component {
   render() {
     return (
-      <div className = "TitleText">
+      <div className = "title-text">
         <p id = "title-text"> Creative Cuts </p>
       </div>
     );

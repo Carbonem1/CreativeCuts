@@ -11,7 +11,6 @@ class TitleDisplayImage extends Component {
     this.state = {
       images: [image1, image2, image3],
       imageCounter: 0,
-      currentImage: image1
     };
   }
 
@@ -27,7 +26,7 @@ class TitleDisplayImage extends Component {
     }, 15000);
 
     return (
-      <div className = "TitleDisplayImage">
+      <div className = "title-display-image">
         <img src = {this.state.images[this.state.imageCounter]} alt = "titleImage" className = "title-image" />
       </div>
     );

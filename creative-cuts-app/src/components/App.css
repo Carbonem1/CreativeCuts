@@ -16,6 +16,14 @@
     src: url("../resources/Flottflott.ttf");
 }
 
+@font-face
+{
+    font-family: Moon;
+    src: url("../resources/moon_get-Heavy.ttf");
+}
+
+
+
 :root
 {
     --main-blue: #4da6ff;
